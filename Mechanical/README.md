@@ -1,6 +1,6 @@
 # Cube lamp stand
 
-...... hold PCB and resin cube .......
+A stand designed to hold the [PCB](../PCB/) and resin cube. The stand is intended to be 3D printed.
 
 TODO: Add photo
 

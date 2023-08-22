@@ -1,0 +1,180 @@
+{
+  "uuid": "dddd9b26b1cd3c034ff24fc21e0f8969",
+  "path": "Offline/Lamp%20Board",
+  "name": "Lamp Board",
+  "content": "",
+  "created_at": "2023-04-30 02:39:11",
+  "updated_at": "2023-08-22 23:15:24",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "fdd9f663a3a6b3be2837b91a73457a76",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "0613ecefb18d471abd49fce89f778704": 12,
+        "9e6969eff4db44a086d7a364e0bde8fb": 1,
+        "bb009484ef804a24ac5d18c54b249586": 12,
+        "5cbe824183374fac8e4c1ae848199ce3": 4,
+        "cf6eca9c9efe444882712b3d5cec1885": 4,
+        "7463a72b8a4540a09ec5278562590438": 4
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "LED-0603_R",
+          4,
+          "LED0603_RED",
+          "LED1,LED4,LED7,LED10",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "BOM_Supplier Part": "C72044",
+            "BOM_Supplier": "LCSC",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "LED-0603_G",
+          4,
+          "LED0603_GREEN",
+          "LED2,LED5,LED8,LED11",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "19-217/GHC-YR1S2/3T",
+            "BOM_Supplier Part": "C72043",
+            "BOM_Supplier": "LCSC",
+            "puuid": "7b706fa666744f94a830dffb572df5db",
+            "uuid": "cf6eca9c9efe444882712b3d5cec1885"
+          }
+        ],
+        [
+          "LED-0603_B",
+          4,
+          "LED0603_BLUE",
+          "LED3,LED6,LED9,LED12",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "19-217/BHC-ZL1M2RY/3T",
+            "BOM_Supplier Part": "C72041",
+            "BOM_Supplier": "LCSC",
+            "puuid": "c15b145d6eaf4fb5b144555548f1c432",
+            "uuid": "7463a72b8a4540a09ec5278562590438"
+          }
+        ],
+        [
+          "NDS331N",
+          12,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11,Q12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C192741",
+            "BOM_Manufacturer": "onsemi(安森美)",
+            "BOM_Manufacturer Part": "NDS331N",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "bade90667a6e4731855e9a223387b8a6",
+            "uuid": "0613ecefb18d471abd49fce89f778704"
+          }
+        ],
+        [
+          "150",
+          4,
+          "R0603",
+          "R1,R4,R7,R10",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "100",
+          4,
+          "R0603",
+          "R2,R5,R8,R11",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "120",
+          4,
+          "R0603",
+          "R3,R6,R9,R12",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "RPI-PICO-SMD",
+          1,
+          "RPI_PICO",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "SC0915",
+            "BOM_Supplier": "Digi-Key",
+            "BOM_Supplier Part": "2648-SC0915CT-ND",
+            "BOM_Manufacturer": "Raspberry Pi",
+            "puuid": "7764d91a2e2f449d9b6d6124f642b85c",
+            "uuid": "9e6969eff4db44a086d7a364e0bde8fb"
+          }
+        ]
+      ],
+      "updateTime": 1692709896,
+      "createTime": 1682786353,
+      "histories": [],
+      "created_at": "2023-04-30 02:39:13",
+      "updated_at": "2023-08-22 23:11:36"
+    },
+    {
+      "uuid": "58c783bab9dde1196610124a1ad1fcf0",
+      "puuid": "dddd9b26b1cd3c034ff24fc21e0f8969",
+      "title": "PCB_Lamp Board",
+      "filename": "PCB_Lamp Board.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "398691f1f785460098bbe5ee6590333c": 12,
+        "1efb3a885b5b4aecb6d41221a8f4d86b": 4,
+        "7b706fa666744f94a830dffb572df5db": 4,
+        "c15b145d6eaf4fb5b144555548f1c432": 4,
+        "bade90667a6e4731855e9a223387b8a6": 12,
+        "7764d91a2e2f449d9b6d6124f642b85c": 1
+      },
+      "BOM": [],
+      "updateTime": 1692710124,
+      "createTime": 1682790276,
+      "histories": [],
+      "created_at": "2023-04-30 03:44:36",
+      "updated_at": "2023-08-22 23:15:24"
+    }
+  ],
+  "sort": [],
+  "title": "Lamp Board",
+  "foldername": "Lamp Board",
+  "schfilename": "Lamp Board.json",
+  "schfilemtime": 1692709896748
+}
